@@ -1,0 +1,17 @@
+#ifndef _CROW_H_
+#define _CROW_H_
+
+#include "bird.h"
+
+class CCrow : public CBird{
+    public:
+        // 鳴く関数（仮想関数）
+        void sing(){
+            cout<<"カーカー"<<endl;
+        }
+        void fly(){
+            cout<<"カラスが飛びます"<<endl;
+        }
+};
+
+#endif
